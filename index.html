@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dianita Aira Diyastuti | Portofolio</title>
+<meta name="description" content="Portofolio Dianita Aira Diyastuti - Pelajar, Programmer, AI Enthusiast">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="progress"></div>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+
+<nav id="nav" aria-label="Navigasi utama">
+  <a class="logo" href="#beranda"><span>D</span><b>Dianita</b></a>
+  <ul>
+    <li><a href="#beranda"><i>🏠</i>Beranda</a></li>
+    <li><a href="#tentang"><i>👤</i>Tentang</a></li>
+    <li><a href="#keahlian"><i>⚡</i>Keahlian</a></li>
+    <li><a href="#proyek"><i>🚀</i>Proyek</a></li>
+    <li><a href="#pencapaian"><i>🏆</i>Pencapaian</a></li>
+    <li><a href="#pengalaman"><i>🎤</i>Pengalaman</a></li>
+    <li><a href="#sertifikat"><i>📜</i>Sertifikat</a></li>
+    <li><a href="#kontak"><i>💬</i>Kontak</a></li>
+  </ul>
+</nav>
+
+<header id="beranda" class="hero">
+  <div class="hero-text">
+    <p class="hi">Halo, selamat datang 👋</p>
+    <h1 id="name" aria-label="Dianita Aira Diyastuti"></h1>
+    <p class="status">Pelajar | Programmer | AI Enthusiast</p>
+    <p class="typing"><span id="typed"></span><em class="caret"></em></p>
+    <p class="lead">Halo, saya Dianita Aira Diyastuti, seorang pelajar di SMK Tunas Harapan Pati yang memiliki ketertarikan pada bidang pemrograman, kecerdasan buatan, website dan teknologi. Saya senang mengembangkan ide menjadi sebuah proyek serta terus belajar melalui pengalaman, organisasi, dan berbagai kompetisi.</p>
+    <div class="cta">
+      <a class="btn primary" href="#proyek">Lihat Proyek</a>
+      <a class="btn ghost" href="#kontak">Hubungi Saya</a>
+    </div>
+  </div>
+  <div class="hero-card tilt">
+    <div class="app-top"><span class="mark">D</span><b>DIANITA.JOURNEY</b><span class="dot"></span></div>
+    <div class="photo">
+      <span class="ph">D</span>
+      <img src="assets/foto-dianita.jpg" alt="Foto Dianita Aira Diyastuti" width="800" height="1000" onerror="this.remove()">
+    </div>
+    <div class="balance">
+      <small>Total pencapaian</small>
+      <strong><span class="count" data-to="4">0</span> Prestasi</strong>
+      <div class="row"><span>⭐ Juara 2 LKS AI Jateng</span><span>+7 proyek</span></div>
+      <div class="row2"><a href="#pencapaian">Pencapaian</a><a href="#sertifikat">Sertifikat</a></div>
+    </div>
+    <div class="mini">
+      <div><b class="count" data-to="7">0</b><small>Proyek &amp; Lomba</small></div>
+      <div><b class="count" data-to="3">0</b><small>Organisasi</small></div>
+      <div><b class="count" data-to="7">0</b><small>Acara MC</small></div>
+    </div>
+    <div class="float f1">🤖 AI</div><div class="float f2">🌐 Web</div><div class="float f3">🎨 UI/UX</div>
+  </div>
+</header>
+
+<main>
+<section id="tentang" class="reveal">
+  <h2>Tentang Saya</h2>
+  <div class="about">
+    <div class="card">
+      <p>Saya adalah pelajar kelas XI Teknik Jaringan Komputer dan Telekomunikasi (TJKT) di SMK Tunas Harapan Pati dengan minat pada pemrograman, kecerdasan buatan, dan teknologi.</p>
+      <p>Saya memiliki pengalaman dalam mengembangkan berbagai proyek di bidang AI, web, dan UI/UX. Saya juga aktif mengikuti kompetisi dan organisasi sekolah yang membantu saya mengembangkan kemampuan dalam bekerja sama, berkomunikasi, memecahkan masalah, serta bertanggung jawab terhadap tugas yang diberikan.</p>
+    </div>
+    <blockquote class="card quote">Bagi saya, setiap proyek dan pengalaman merupakan kesempatan untuk belajar, berkembang, dan menciptakan sesuatu yang dapat bermanfaat bagi orang lain.</blockquote>
+  </div>
+</section>
+
+<section id="keahlian" class="reveal">
+  <h2>Keahlian</h2>
+  <div class="skillgroup">
+    <h3 class="gh"><span>💻</span>Hard Skill</h3>
+    <div class="grid" id="hard"></div>
+  </div>
+  <div class="skillgroup">
+    <h3 class="gh"><span>🤝</span>Soft Skill</h3>
+    <div class="grid"><div class="card skill wide" id="soft"></div></div>
+  </div>
+</section>
+
+<section id="proyek" class="reveal">
+  <h2>Proyek &amp; Pengalaman Lomba</h2>
+  <div class="grid projects" id="projects"></div>
+</section>
+
+<section id="pencapaian" class="reveal">
+  <h2>Pencapaian</h2>
+  <div class="grid ach" id="ach"></div>
+</section>
+
+<section id="pengalaman" class="reveal">
+  <h2>Pengalaman</h2>
+  <div class="grid two">
+    <div class="card"><h3>Organisasi</h3><ul class="timeline" id="orgs"></ul></div>
+    <div class="card"><h3>MC &amp; Moderator</h3><ul class="timeline" id="mcs"></ul></div>
+  </div>
+</section>
+
+<section id="sertifikat" class="reveal">
+  <h2>Sertifikat</h2>
+  <div class="grid certs" id="certs"></div>
+</section>
+
+<section id="kontak" class="reveal">
+  <h2>Kontak</h2>
+  <div class="contact card">
+    <p>Punya ide proyek atau ingin berkolaborasi? Hubungi saya lewat:</p>
+    <div class="cta">
+      <a class="btn primary" href="https://instagram.com/dianita_dys" target="_blank" rel="noopener">📸 Instagram @dianita_dys</a>
+      <a class="btn ghost" href="mailto:dianitaaira@gmail.com">✉️ dianitaaira@gmail.com</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Dianita Aira Diyastuti</footer>
+<button id="top" aria-label="Kembali ke atas">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
